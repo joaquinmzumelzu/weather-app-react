@@ -1,13 +1,13 @@
 
 import { Route } from 'react-router-dom';
 import Componente2 from './components/Componente2';
-import Home from './components/Home';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div >
       <Route exact path = '/'>
-        <Home/>
+        <NavBar/>
       </Route>
       
       <Route path = '/componente2'>
